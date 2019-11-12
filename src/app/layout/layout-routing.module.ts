@@ -24,7 +24,7 @@ const routes: Routes = [
             { path: 'search', loadChildren: () => import('./search/search.module').then(m => m.SearchModule) },
             { path: 'org', loadChildren: () => import('./organization/organization.module').then(m => m.OrganizationModule) },
             { path: 'Users', loadChildren: () => import('./users/users.module').then(m => m.UsersModule) },
-            { path: 'dept', loadChildren: () => import('./department/department.module').then(m => m.DepartmentModule) },
+            { path: 'departments', loadChildren: () => import('./department/department.module').then(m => m.DepartmentModule) },
             { path: 'loc', loadChildren: () => import('./locations/locations.module').then(m => m.LocationsModule) }
 
         ]

@@ -1,4 +1,3 @@
-
 <div class="col-md-12">
     <ul class="nav justify-content-end items">
         <h1 class="header">Manage Department </h1>
@@ -10,11 +9,20 @@
                     <i class="fa fa-file-o"></i> Manage Organizations & Users <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
+                    <li><a routerLink="/org">Organizations</a></li>
+                    <br />
+                    <li><a routerLink="/loc">Locations</a></li>
+                    <br />
+                    <li><a routerLink="/departments">Departments</a></li>
+                    <br />
+                    <li><a routerLink="/Users">Users</a></li>
+                    <br />
                     <li>
-                    </li><a routerLink='/doc'>All Documents</a>
-
+                        <a routerLink="/doc">All Documents</a>
+                    </li>
+                    <br />
+    
                     <li><a routerLink="/design">Designations</a></li>
-                    <li><a routerLink="/dept">Department</a></li>
                 </ul>
             </div>
 
@@ -49,7 +57,8 @@
 
         <div class="data-container zoomIn">
             <span class="doctype">Department</span>
-            <button class="btn btn-lg btn-warning text-white float-right" (click)="openAdd(kiran,'Add')">Add new Department</button>
+            <button class="btn btn-lg btn-warning text-white float-right" (click)="openAdd(kiran,'Add')">Add new
+                Department</button>
 
             <table class='table table-striped table-sm table-responsive-sm table-hover'>
                 <thead>

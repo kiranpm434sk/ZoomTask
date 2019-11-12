@@ -14,7 +14,7 @@ import { LocationsdataService } from './locationsdata.service';
   styleUrls: ['./locations.component.scss']
 })
 export class LocationsComponent implements OnInit {
-
+ 
     constructor(
         private http: HttpClient,
         private modalService: NgbModal,
