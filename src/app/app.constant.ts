@@ -5,8 +5,8 @@ export const AppConstant = Object.freeze({
   APP: {
     MODULE_NAME: 'ChatApp-CpMp'
   },
-  API_ENDPOINT1: 'https://f61fe58b.ngrok.io/api/Settings/',
-  API_ENDPOINT2: 'https://f61fe58b.ngrok.io/api/Member/',
+  API_ENDPOINT1: 'https://2429e9d2.ngrok.io/api/Settings/',
+  API_ENDPOINT2: 'https://2429e9d2.ngrok.io/api/Member/',
 
   UI_MP_ORGIN: 'https://ChatApp.com/',
   UI_UP_ORGIN: 'https://ChatApp.com/',
