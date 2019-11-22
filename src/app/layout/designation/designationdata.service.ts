@@ -36,7 +36,7 @@ export class DesignationdataService {
 
 
     public getDesignations() :Observable<any>{
-        return this.http.get(this.SERVER_URL);
+        return this.http.get(this.SERVER_URL); 
         }
 
 
